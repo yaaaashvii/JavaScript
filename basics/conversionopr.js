@@ -21,3 +21,47 @@ console.log(booleanIsLoggedIn);  //empty string => false "yashvi"=> true
 let num = 33
 let str = String(num)
 console.log(str);
+
+//operation:
+let value = 3
+let negvalue = -value
+console.log(negvalue)
+
+let str1 = "hello"
+let str2= " yashvi"
+let str3 = str1+str2
+console.log(str3);  //o/p=> hello yashvi 
+ 
+
+//complex e.g.
+console.log("1"+2) //op=> 12 (string) 
+console.log(1+"2") //op=> 12
+console.log("1"+2+ 2) //op 122
+console.log(1+2+"2") //op 32
+console.log(1+2*2%4) //op=>1 but use paranthesis for better visualization and professionalism
+
+//conversions
+
+console.log(2>1);
+console.log(2>=1);
+console.log(2<1);
+console.log(2!=1);
+//problem 
+
+console.log("2">1);
+console.log("02">1); //both showing op true but different datatypes cannot be compared 
+
+console.log(null>0);  //F
+console.log(null==0); //F
+console.log(null>=0); //T
+// equality check (==)and comparison(> <) opr works differently
+//comparison convert null to a number treating it a a 0 
+console.log(undefined ==0) //op => false in any condition it will give false 
+
+
+//strict check 
+console.log("2"===2 ); //it will check datatypes too
+
+
+
+
