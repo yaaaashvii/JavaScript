@@ -40,7 +40,7 @@ console.log("1"+2+ 2) //op 122
 console.log(1+2+"2") //op 32
 console.log(1+2*2%4) //op=>1 but use paranthesis for better visualization and professionalism
 
-//conversions
+//comparisons
 
 console.log(2>1);
 console.log(2>=1);
@@ -61,7 +61,3 @@ console.log(undefined ==0) //op => false in any condition it will give false
 
 //strict check 
 console.log("2"===2 ); //it will check datatypes too
-
-
-
-
